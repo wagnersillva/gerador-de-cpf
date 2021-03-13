@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gerador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #3E16DE;
+}
+.gerador div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.gerador div h1 {
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+.gerador div button {
+    width: 150px;
+    height:30px;
+    background-color: #44c767;
+    border: none;
+    outline: none;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 0 0 2px 0;
+}
+.gerador div button:hover {
+    background-color: #5cbf2a;
+}
